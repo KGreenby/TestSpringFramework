@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:property-placeholder location="classpath:value.properties"/>
+
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource"
+		p:driverClassName="${db.driverClass}"
+		p:jdbcUrl="${db.url}"
+		p:username="${db.username}"
+		p:password="${db.password}"
+	/>
+	
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="configLocation" value="classpath:myBatis/SqlMapConfig.xml"/>
+		<property name="mapperLocations">
+			<list>
+				<value>classpath:myBatis/*Mapper.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<!-- 기본생성자가 없다 라는 오류가 뜸 -->
+		<constructor-arg ref="sqlSessionFactory"/>
+	</bean>
+	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="book.dao.mapper"/>
+		<property name="sqlSessionTemplateBeanName" value="sqlSession"/>
+	</bean>
+	
+	<context:component-scan base-package="book">
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+
+</beans>

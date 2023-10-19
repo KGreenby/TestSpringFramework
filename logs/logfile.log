@@ -1,0 +1,60 @@
+2023-10-19 13:14:52 042 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:14:52 306 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:15:00 489 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:15:00 677 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:16:41 670 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:16:41 868 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:16:42 261 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:16:42 267 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@493dfb8e] was not registered for synchronization because synchronization is not active
+2023-10-19 13:16:42 280 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@938199512 wrapping org.mariadb.jdbc.Connection@293bb8a5] will not be managed by Spring
+2023-10-19 13:16:42 286 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:16:42 311 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 개미(String)
+2023-10-19 13:16:42 344 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 1
+2023-10-19 13:16:42 345 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@493dfb8e]
+2023-10-19 13:18:43 022 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:18:43 215 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:18:43 522 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:18:43 533 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fff253c] was not registered for synchronization because synchronization is not active
+2023-10-19 13:18:43 565 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@363397863 wrapping org.mariadb.jdbc.Connection@7876d598] will not be managed by Spring
+2023-10-19 13:18:43 584 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:18:43 641 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 김그린비(String)
+2023-10-19 13:18:43 663 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 0
+2023-10-19 13:18:43 666 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fff253c]
+2023-10-19 13:18:43 692 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:18:43 693 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c715e84] was not registered for synchronization because synchronization is not active
+2023-10-19 13:18:43 693 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1195542839 wrapping org.mariadb.jdbc.Connection@3b9d6699] will not be managed by Spring
+2023-10-19 13:18:43 693 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:18:43 693 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 개미(String)
+2023-10-19 13:18:43 700 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 1
+2023-10-19 13:18:43 700 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c715e84]
+2023-10-19 13:30:40 028 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:30:40 241 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:35:12 424 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:35:12 637 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:35:48 631 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:35:48 829 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:35:49 013 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:35:49 022 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d24ffa1] was not registered for synchronization because synchronization is not active
+2023-10-19 13:35:49 213 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2111882926 wrapping org.mariadb.jdbc.Connection@a486d78] will not be managed by Spring
+2023-10-19 13:35:49 219 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:35:49 240 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 개미(String)
+2023-10-19 13:35:49 261 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 1
+2023-10-19 13:35:49 268 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d24ffa1]
+2023-10-19 13:35:49 294 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:35:49 294 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@758f4f03] was not registered for synchronization because synchronization is not active
+2023-10-19 13:35:49 297 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1764291958 wrapping org.mariadb.jdbc.Connection@660e9100] will not be managed by Spring
+2023-10-19 13:35:49 298 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:35:49 298 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 개미(String)
+2023-10-19 13:35:49 299 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 1
+2023-10-19 13:35:49 300 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@758f4f03]
+2023-10-19 13:36:51 570 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:36:51 780 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:37:39 967 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\TestSpringFramework\target\classes\book\dao\mapper\BookMapper.class]
+2023-10-19 13:37:40 173 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 13:37:40 578 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 13:37:40 584 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@114a85c2] was not registered for synchronization because synchronization is not active
+2023-10-19 13:37:40 596 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1525114112 wrapping org.mariadb.jdbc.Connection@6063d80a] will not be managed by Spring
+2023-10-19 13:37:40 603 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==>  Preparing: select * from book where title=?
+2023-10-19 13:37:40 630 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - ==> Parameters: 개미(String)
+2023-10-19 13:37:40 653 [main] DEBUG book.dao.mapper.BookMapper.selectBookByTitle - <==      Total: 1
+2023-10-19 13:37:40 654 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@114a85c2]

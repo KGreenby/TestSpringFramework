@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+	<!-- myBatis 설정파일 -->
+
+<configuration>
+	<!-- log4j2 설정 -->
+	<settings>
+         <setting name="defaultStatementTimeout" value="3"/> 
+         <setting name="logImpl" value="LOG4J2"/>
+    </settings>
+    
+	<typeAliases>
+	<!-- !!!!!!!!!!!!!!이부분 수정!!!!!!!!! -->
+		<typeAlias alias="Book" type="book.vo.BookVO" />
+	</typeAliases>
+
+</configuration>
